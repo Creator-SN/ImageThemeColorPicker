@@ -1,0 +1,15 @@
+{
+  "name": "theme-picker",
+  "version": "0.0.1",
+  "description": "Pick theme for image",
+  "main": "index.js",
+  "repository": "https://github.com/Creator-SN/ImageThemeColorPicker.git",
+  "author": "CreatorSN",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "theme",
+    "octree",
+    "color"
+  ]
+}
