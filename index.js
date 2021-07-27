@@ -1,5 +1,5 @@
 /** © Creator SN */
-export class ThemeColor {
+class ThemeColor {
   static readRGB(url, func = null) {
     let canvas = document.createElement('canvas');
     let ctx = canvas.getContext('2d');
@@ -107,4 +107,8 @@ export class ThemeColor {
         callback(result);
     });
   }
+}
+
+module.exports = {
+  ThemeColor
 }
